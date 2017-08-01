@@ -1,6 +1,6 @@
 var express = require('express');
 var app = express();
-
+var testt;
 app.use(express.static('public'));
 console.log(__dirname);
 app.get('/', function (req, res) {
